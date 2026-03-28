@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- CAMBIO 1: banner_superior con ID (antes era solo clase cabecera) -->
+        <div id="banner_superior" class="cabecera">
+            <!-- CAMBIO 2: superior_izquierdo con ID (antes era contenedor_foto_perfil) -->
+            <div id="superior_izquierdo" class="contenedor_foto_perfil">
+                <img src="Ejemplo foto tamaño carnet_.jpg" alt="Foto de perfil">
+            </div>
+            <!-- CAMBIO 3: superior_derecho con ID (antes era nombre_puesto) -->
+            <div id="superior_derecho" class="nombre_puesto">
+                <h1>Genesis Quezada</h1>
+                <h2>Desarrolladora Web</h2>
+            </div>
+        </div>
+
+        <!-- CAMBIO 4: contenedor_principal con ID (antes era contenido_cv como clase) -->
+        <div id="contenedor_principal" class="contenido_cv">
+            <!-- CAMBIO 5: width cambiado a 25% (antes era 28% o 30%) -->
+            <div style="width: 25%;" class="habilidades">
+                <h3>Perfil profesional</h3>
+                <hr>
+                <br>
+                <p class="carta_presentacion">
+                    Soy una desarrolladora web apasionada por la tecnología y el diseño. 
+                    Con experiencia en HTML, CSS, JavaScript, Python y frameworks como React, me especializo en crear sitios web atractivos 
+                    y funcionales.
+                    Mi objetivo es contribuir al éxito de proyectos digitales mediante soluciones innovadoras y eficientes.
+                </p>
+                <br>
+                <h3><i class="fas fa-cogs"></i> Habilidades</h3>
+                <hr>
+                <br>
+                <div class="grafico">
+                    <div class="donut-hole"></div>
+                    <div class="sector" id="sector1"></div>
+                    <div class="sector" id="sector2"></div>
+                    <div class="sector" id="sector3"></div>
+                </div>
+                <div class="habilidad">Trabajo en equipo</div>
+                <br>
+                <div class="grafico">
+                    <div class="donut-hole"></div>
+                    <div class="sector" id="sector1"></div>
+                    <div class="sector" id="sector2"></div>
+                    <div class="sector" id="sector3"></div>
+                </div>
+                <div class="habilidad">Gestión de proyectos</div>
+                <br>
+                <div class="grafico">
+                    <div class="donut-hole"></div>
+                    <div class="sector" id="sector1"></div>
+                    <div class="sector" id="sector2"></div>
+                    <div class="sector" id="sector3"></div>
+                </div>
+                <div class="habilidad">Liderazgo</div>
+                <br>
+                <br>
+                <h3><i class="fas fa-language"></i> Idiomas</h3>
+                <hr>
+                <br>
+                <div class="grafico">
+                    <div class="donut-hole"></div>
+                    <div class="sector" id="sector1"></div>
+                    <div class="sector" id="sector2"></div>
+                    <div class="sector" id="sector3"></div>
+                </div>
+                <div class="habilidad">Español</div>
+                <br>
+                <div class="grafico">
+                    <div class="donut-hole"></div>
+                    <div class="sector" id="sector1"></div>
+                    <div class="sector" id="sector2"></div>
+                    <div class="sector" id="sector3"></div>
+                </div>
+                <div class="habilidad">Inglés</div>
+                <br>
+                <div class="grafico">
+                    <div class="donut-hole"></div>
+                    <div class="sector" id="sector1"></div>
+                    <div class="sector" id="sector2"></div>
+                    <div class="sector" id="sector3"></div>
+                </div>
+                <div class="habilidad">Portugues</div>
+                <br>
+                <br>
+                <h3><i class="fas fa-envelope"></i> Información de Contacto</h3>
+                <hr>
+                <br>
+                <ul>
+                    <li>Email: Scr.snza@gmail.com</li>
+                    <br>
+                    <li>Teléfono: +56 5901 6066</li>
+                    <br>
+                    <li>Ubicación: Temuco, Chile</li>
+                </ul>
+                <br>
+            </div>
+            <div style="width: 75%;" class="experiencia">
+                <h3><i class="fas fa-briefcase"></i> Experiencia Laboral</h3>
+                <hr>
+                <h4>Puesto</h4>
+                <br>
+                <div class="nombre_empresa">Nombre Empresa</div>
+                <br>
+                <div class="año_puesto">2020-2022</div>
+                <br>
+                <br>
+                <p class="descripcion_puesto">Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla 
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                </p>
+                <br>
+                <h4>Puesto</h4>
+                <br>
+                <div class="nombre_empresa">Nombre Empresa</div>
+                <br>
+                <div class="año_puesto">2023-2026</div>
+                <br>
+                <br>
+                <p class="descripcion_puesto">Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla 
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla</p>
+                <br>
+                <h3><i class="fas fa-graduation-cap"></i> Formación</h3>
+                <hr>
+                <h4>Carrera o Diplomado</h4>
+                <br>
+                <div class="nombre_institucion">Nombre Institución</div>
+                <br>
+                <div class="año_puesto">2010-2016</div>
+                <br>
+                <br>
+                <p class="descripcion_puesto">Descripción de la institución bla bla bla bla bla bla bla 
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla</p>
+                <br>
+                <h4>Carrera o Diplomado</h4>
+                <br>
+                <div class="nombre_institucion">Nombre Institución</div>
+                <br>
+                <div class="año_puesto">2017-2020</div>
+                <br>
+                <br>
+                <p class="descripcion_puesto">Descripción de la institución bla bla bla bla bla bla bla 
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla
+                    Descripción del puesto dentro de la empresa bla bla bla bla bla bla bla</p>
+                <br>
+            </div>
+        </div>
+        <div id="pie_pagina">
+            <div class="redes-sociales">
+                <a href="#">GitHub</a> |
+                <a href="#">LinkedIn</a> |
+                <a href="#">Portafolio</a>
+            </div>
+            <p>© 2026 - Genesis Quezada. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
